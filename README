@@ -1,22 +1,11 @@
-Machine Learning as a Service (MLaaS) composi-
-tion has emerged as an effective mechanism for IoT environments
-to integrate multiple services to meet diverse and evolving
-application requirements. However, predicting the performance
-of a new service or unseen service combination remains a critical
-challenge without manual evaluation. Traditional QoS prediction
-approaches are structure-centric and are not well suited for
-MLaaS composition, as they fail to capture the semantic rela-
-tionships among composed services. To address this, we propose
-a Semantic-driven MLaaS Composability (SDMC) framework
-that enables performance prediction for unseen service combina-
-tions without executing the composition. SDMC learns semantic
-relationships from historical compositions by jointly capturing
-functional compatibility and non-functional interaction patterns.
-This enables the proposed model accurately estimates compo-
-sition performance under partial correspondence and evolving
-service conditions. Extensive evaluations across multiple datasets
-demonstrate that SDMC consistently reduces prediction errors
-by up to 30% compared to a baseline approach. Moreover, the
-proposed SDMC framework provides a scalable and effective
-predictive capability across diverse service combinations and
+Machine Learning as a Service (MLaaS) composition has emerged as an effective mechanism for IoT environments to integrate multiple services to meet diverse
+and evolving application requirements. However, predicting the performance of a new service or unseen service combination remains a critical
+challenge without manual evaluation. Traditional QoS prediction approaches are structure-centric and are not well suited for
+MLaaS composition, as they fail to capture the semantic relationships among composed services. To address this, we propose
+a Semantic-driven MLaaS Composability (SDMC) framework that enables performance prediction for unseen service combina-
+tions without executing the composition. SDMC learns semantic relationships from historical compositions by jointly capturing
+functional compatibility and non-functional interaction patterns. This enables the proposed model accurately estimates compo-
+sition performance under partial correspondence and evolving service conditions. Extensive evaluations across multiple datasets
+demonstrate that SDMC consistently reduces prediction errors by up to 30% compared to a baseline approach. Moreover, the
+proposed SDMC framework provides a scalable and effective predictive capability across diverse service combinations and
 complex IoT deployment scenarios
